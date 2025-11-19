@@ -136,6 +136,10 @@ export const UIOverlay: React.FC<UIOverlayProps> = ({
                     <span className="text-sm tracking-widest text-cyan-300">BOOST</span>
                 </div>
              </div>
+
+             <div className="mt-12 text-[10px] text-cyan-800 tracking-widest opacity-70">
+               BACKGROUND AUDIO: <a href="https://pixabay.com/music/synthwave-neon-nights-241523/" target="_blank" rel="noreferrer" className="underline hover:text-cyan-400 transition-colors">NEON NIGHTS</a>
+             </div>
           </div>
         )}
 
@@ -177,6 +181,10 @@ export const UIOverlay: React.FC<UIOverlayProps> = ({
                   <span>FPS COUNTER</span>
                   <span>[{showFps ? 'ON' : 'OFF'}]</span>
                 </button>
+             </div>
+
+             <div className="mt-8 text-[10px] text-cyan-800 tracking-widest opacity-70">
+               BACKGROUND AUDIO: <a href="https://pixabay.com/music/synthwave-neon-nights-241523/" target="_blank" rel="noreferrer" className="underline hover:text-cyan-400 transition-colors">NEON NIGHTS</a>
              </div>
           </div>
         )}
